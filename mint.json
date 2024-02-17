@@ -1,0 +1,61 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Shinka Origin",
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#AB3429",
+    "light": "#c23023",
+    "dark": "#AB3429",
+    "anchors": {
+      "from": "#c23023",
+      "to": "#AB3429"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Contact",
+      "url": "lorenzolordwood5@gmail.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Back to Website",
+    "url": "https://shinkaorigin.com"
+  },
+  "anchors": [
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://mintlify.com/community"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://mintlify.com/blog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "about-shinka"
+      ]
+    },
+    {
+      "group": "NFT",
+      "pages": [
+        "nft/minting"
+      ]
+    },
+    {
+      "group": "DeFi",
+      "pages": [
+        "defi/lrt"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/mintlify",
+    "discord": "https://discord.com/mintlify"
+  }
+}
